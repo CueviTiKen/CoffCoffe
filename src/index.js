@@ -9,7 +9,7 @@ import { UserProvider } from './context/UserContext'; // 👈 Importa el context
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <UserProvider> {/* 👈 Envolvemos la App con el provider */}
+    <UserProvider>
       <App />
     </UserProvider>
   </React.StrictMode>

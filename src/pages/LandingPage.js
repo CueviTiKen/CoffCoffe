@@ -1,5 +1,5 @@
 import React from 'react';
-import useTitulo from '../hooks/useTitulo'; // Ajusta el path si está en otra carpeta
+import useTitulo from '../hooks/useTitulo';
 
 function LandingPage() {
   useTitulo('Inicio | CoffCoffee');
@@ -11,7 +11,7 @@ function LandingPage() {
         <p style={styles.subtitle}>Descubre nuestra selección de granos de café premium de todo el mundo</p>
       </div>
 
-      {/* Sección tipo "sobre nosotros" */}
+
       <section style={styles.aboutSection}>
         <div style={styles.aboutText}>
           <h2 style={styles.aboutTitle}>Pasión por el café artesanal</h2>
@@ -29,7 +29,7 @@ function LandingPage() {
         </div>
       </section>
 
-      {/* CTA final */}
+    
       <section style={styles.ctaSection}>
         <h2 style={styles.ctaTitle}>Explora nuestros productos y encuentra tu mezcla perfecta</h2>
         <a href="/productos" style={styles.ctaButton}>Ver Productos</a>
@@ -45,7 +45,7 @@ const styles = {
     flexDirection: 'column',
     alignItems: 'center',
     backgroundColor: '#fdfaf6',
-    overflowX: 'hidden', // ✅ evita desbordamiento
+    overflowX: 'hidden', 
     width: '100%',
   },
 hero: {
