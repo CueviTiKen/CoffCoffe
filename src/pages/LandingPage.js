@@ -48,25 +48,25 @@ const styles = {
     overflowX: 'hidden', // ✅ evita desbordamiento
     width: '100%',
   },
-  hero: {
-    textAlign: 'center',
-    padding: '80px 20px',
-    backgroundImage: 'linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/coffee-beans-bg.jpg")',
-    backgroundSize: 'cover',
-    backgroundPosition: 'center',
-    color: 'white',
-    width: '100%',
-  },
-  title: {
-    fontSize: '3.5rem',
-    marginBottom: '20px',
-  },
-  subtitle: {
-    fontSize: '1.5rem',
-    maxWidth: '600px',
-    margin: '0 auto',
-  },
-
+hero: {
+  textAlign: 'center',
+  padding: '80px 20px',
+  backgroundColor: '#fdfaf6', 
+  backgroundImage: 'none',     
+  color: '#6f4e37',            
+  width: '100%',
+},
+title: {
+  fontSize: '3.5rem',
+  marginBottom: '20px',
+  color: '#6f4e37',
+},
+subtitle: {
+  fontSize: '1.5rem',
+  maxWidth: '600px',
+  margin: '0 auto',
+  color: '#6f4e37',
+},
   aboutSection: {
     display: 'flex',
     flexWrap: 'wrap',
